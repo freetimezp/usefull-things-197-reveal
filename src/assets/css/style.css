@@ -87,7 +87,7 @@ p {
 
 .num1offset1 {
     position: relative;
-    right: -30px;
+    right: -20px;
 }
 
 .num1offset2 {
@@ -177,7 +177,7 @@ nav .divider {
 .sidebar .logo {
     width: 2rem;
     aspect-ratio: 1;
-    transform: scale(0);
+    transform: scale(0) rotate(-15deg);
 }
 
 .sidebar .divider {
@@ -192,10 +192,11 @@ nav .divider {
 
 .header {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 7.5rem;
     transform: translateY(-50%);
     width: 60%;
+    text-align: center;
 }
 
 .site-info {
